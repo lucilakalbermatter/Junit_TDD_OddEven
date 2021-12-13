@@ -1,6 +1,10 @@
 package main.java;
 
 public class OddEvenChecker {
+    public static void main(String[] args) {
+
+    }
+
 
     /**
      * This method verifies if the given number is odder number or not.
@@ -9,6 +13,8 @@ public class OddEvenChecker {
      * @return
      */
     public boolean isOddNumber(int number) {
-        //TODO
+        if(number % 2 == 0) {
+            return false;
+        }return true;
     }
 }

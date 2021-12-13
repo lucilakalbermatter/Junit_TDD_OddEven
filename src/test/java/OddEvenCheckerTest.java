@@ -20,6 +20,6 @@ public class OddEvenCheckerTest {
     @ParameterizedTest(name = "test even number with: {arguments} ")
     @ValueSource(ints ={20,10})
     public void testEvenNumber(int number) {
-        assertTrue(oddEvenChecker.isOddNumber(number));
+            assertFalse(oddEvenChecker.isOddNumber(number));
     }
 }
